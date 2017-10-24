@@ -48,6 +48,11 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	/*#about {
+		background: url(images/st_josephs_trail_uni.jpg) no-repeat center center fixed;
+		background-size: cover;
+	}*/
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -747,7 +752,7 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/purpleSwirl.jpg");
+		background-image: url("images/overlay.png"), url("images/unsplash_blue.jpeg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
