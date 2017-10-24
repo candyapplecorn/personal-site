@@ -1,0 +1,7 @@
+.links {
+  display: flex;
+  justify-content: space-around ;
+}
+.project-about {
+  /*text-align: center;*/
+}

@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/joes.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -33,37 +34,55 @@
 						<!-- Me -->
 							<article id="me" class="panel">
 								<header>
-									<h1>Jane Doe</h1>
-									<p>Senior Astral Projectionist</p>
+									<h1>Joseph Burger</h1>
+									<p>Software Developer</p>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
+									<img src="images/me_uni_small.jpg" alt="" />
 								</a>
 							</article>
 
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Work</h2>
+									<h2>Projects</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									I make websites, animations, automation scripts, bots and <a title="My GitHub" href="https://github.com/candyapplecorn" target="_blank">more</a>. Please use this site's contact form to send me feedback, suggestions and criticism.
 								</p>
 								<section>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+											<a href="#" class="image fit"><img src="gifs/like.gif" alt=""></a>
+											<div class="project-about">
+												<div class="links">
+													<a href="https://write-it-up.herokuapp.com/#/" title="Psst... Hey kid... Wanna write a blog post?" target="_blank">live</a>
+													<a href="https://github.com/candyapplecorn/write-it-up" target="_blank">GitHub</a>
+												</div>
+												<p>A <a href="https://en.wikipedia.org/wiki/Single-page_application" title="When you click links... You don't REALLY go to new pages. JavaScript magic! 2017! SPA!!!" target="_blank">single page</a> blogging application built in React + <a href="https://github.com/candyapplecorn/write-it-up#elevated-state" target="_blank" title="Because threading props is soooo yesteryear">Redux</a> which consumes a <a href="https://github.com/candyapplecorn/write-it-up#asynchronous-ruby-on-rails-api" title="That means JSON. Lots of JSON." target="_blank">RESTful API</a> provided by Ruby on Rails</p>
+											</div>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+											<a href="#" class="image fit"><img src="gifs/demo.gif" alt=""></a>
+											<div class="project-about">
+												<div class="links">
+													<a href="http://www.ezpaint.us/" title="UNLEASH YOUR ARTISTIC POTENTIAL" target="_blank">live</a>
+													<a href="https://github.com/candyapplecorn/ezpaint" target="_blank">GitHub</a>
+												</div>
+												<p>A <a href="https://github.com/candyapplecorn/ezpaint#responsive-css" title="That means it works on phones too!" target="_blank">cross-device</a> painter program written in pure JavaScript, HTML and CSS</p>
+											</div>
 										</div>
 										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+											<a href="#" class="image fit"><img src="gifs/snow.gif" alt=""></a>
+											<div class="project-about">
+												<div class="links">
+													<a href="https://github.com/candyapplecorn/snowing-quad-tree-animation" title="You could also just stare at this gif forever" target="_blank">GitHub</a>
+												</div>
+												<p><a title="What in the world is a Quadtree?!" href="https://en.wikipedia.org/wiki/Quadtree" target="_blank">Quadtree</a> data structure animated in Ruby with the <a href="https://www.libgosu.org/" title="No, not the super sayan" target="_blank">gosu</a> library</p>
+											</div>
 										</div>
-										<div class="4u 12u$(mobile)">
+										<!-- <div class="4u 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
 										</div>
 										<div class="4u 12u$(mobile)">
@@ -71,8 +90,8 @@
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
+										</div> -->
+										<!-- <div class="4u 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
 										</div>
 										<div class="4u 12u$(mobile)">
@@ -89,7 +108,7 @@
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
+										</div> -->
 									</div>
 								</section>
 							</article>
@@ -99,14 +118,14 @@
 								<header>
 									<h2>Contact Me</h2>
 								</header>
-								<form action="#" method="post">
+								<form action="https://formspree.io/candyapplecorn@gmail.com" method="post">
 									<div>
 										<div class="row">
 											<div class="6u 12u$(mobile)">
 												<input type="text" name="name" placeholder="Name" />
 											</div>
 											<div class="6u$ 12u$(mobile)">
-												<input type="text" name="email" placeholder="Email" />
+												<input type="text" name="_replyto" placeholder="Email" />
 											</div>
 											<div class="12u$">
 												<input type="text" name="subject" placeholder="Subject" />
